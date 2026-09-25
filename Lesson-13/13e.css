@@ -1,0 +1,75 @@
+body {
+  padding-top: 5px;
+  padding-left: 5px;
+}
+
+.inboxes {
+  width: 400px;
+  box-shadow: 0px 0px 4px 3px rgba(0,0,0,0.1);
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Arial;
+}
+
+.all-inboxes {
+  font-size: 14px;
+  color: rgb(115, 115, 115);
+  margin-bottom: 20px;
+}
+
+.each-inbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 22px;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.details {
+  margin-left: 12px;
+  flex: 1;
+}
+
+.title-time {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 3px;
+}
+
+.time {
+  font-size: 14px;
+  color: rgb(115, 115, 115);
+}
+
+.subtitle {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.mail {
+  font-size: 16px;
+  color: rgb(115, 115, 115);
+}
+

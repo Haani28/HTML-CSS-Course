@@ -1,0 +1,9 @@
+input {
+  font-size: 18px;
+  display: block;
+  width: 200px;
+}
+
+.name {
+  margin-bottom: 6px;
+}

@@ -1,0 +1,28 @@
+body {
+  height: 1000px;
+}
+
+.sidebar1 {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  padding-top: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: rgba(0,0,0,0.85);
+}
+
+img {
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 25px;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.sidebar2 {
+  left: 
+}

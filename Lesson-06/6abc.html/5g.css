@@ -1,0 +1,24 @@
+p {
+		font-family: Arial;
+		width: 500px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+
+	.title {
+		font-weight: bold;
+		margin-bottom: 8px;
+	}
+
+	.details {
+		color: rgb(98, 98, 98);
+		font-weight: 100;
+	}
+
+	.description {
+		margin-bottom: 20px;
+	}
+
+	.acc-name {
+		color: rgb(0, 155, 216);
+	}

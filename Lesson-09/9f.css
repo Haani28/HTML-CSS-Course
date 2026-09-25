@@ -1,0 +1,51 @@
+.profile {
+  width: 180px;
+  height: 280px;
+  box-shadow: 0 0 5px 0 rgba(0,0,0,0.4);
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+img {
+  width: 100%;
+}
+
+.profile-pic {
+  height: 180px;
+}
+
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Arial;
+}
+
+.details {
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.mutuals {
+  font-size: 13.5px;
+  margin-bottom: 9px;
+  color: rgb(88, 88, 88);
+}
+
+button {
+  border: none;
+  background-color: rgb(20, 116, 250);
+  color: white;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 4px;
+}
+
