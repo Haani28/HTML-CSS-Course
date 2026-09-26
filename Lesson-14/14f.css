@@ -2,6 +2,12 @@ body {
   height: 1000px;
 }
 
+p {
+  font-family: Arial;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
 .sidebar1 {
   position: fixed;
   left: 0px;
@@ -14,8 +20,8 @@ body {
 }
 
 img {
-  width: 45px;
-  height: 45px;
+  width: 50px;
+  height: 50px;
   object-fit: cover;
   object-position: center;
   border-radius: 25px;
@@ -24,5 +30,39 @@ img {
 }
 
 .sidebar2 {
-  left: 
+  position: fixed;
+  left: 70px;
+  top: 0px;
+  bottom: 0px;
+  width: 155px;
+  background-color: rgba(0,0,0,0.8);
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 12px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.info {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.add {
+  font-size: 25px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.new-videos,
+.updates,
+.faq {
+  margin-bottom: 16px;
+  color: rgba(255, 255, 255, 0.4);
 }
